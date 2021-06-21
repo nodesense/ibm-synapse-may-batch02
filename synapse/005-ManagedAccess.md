@@ -1,6 +1,5 @@
 ```
-
--- Managed Access - use Active Directory
+-- Maanged Access - use Active Directory
 -- ExternalCSVWithHeader is already present 
 
 -- access external storage which is not linked to synapse
@@ -17,7 +16,7 @@ CREATE EXTERNAL DATA SOURCE [movielens_ds]
 
 
 -- In the storage account, go to access control, Assign role,
-   -- Contributor, search for ibm/ something relevant to your synapse workspace
+   -- Azure Storage Blob Contributor, search for ibm/ something relevant to your synapse workspace
    -- select from results
    -- save button
 
@@ -37,4 +36,5 @@ CREATE EXTERNAL TABLE movielens_links (
 );
 
 SELECT * from movielens_links;
+
 ```
