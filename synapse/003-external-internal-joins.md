@@ -1,4 +1,4 @@
-```
+```sql
 -- create external tables - links, ratings, tags
 
 -- create internal, copy data from csv into internal table - movies
