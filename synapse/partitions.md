@@ -31,6 +31,13 @@
 -- Range right
     -- the actual boundary value belongs to right partition, first value in right partition
 
+  --   Partition 0            < 1000
+   -- Partition  1 (1000 to 1999) >=1000 and < 2000
+   -- Partition 2 (2000 to 2999) >=2000 and < 3000
+   -- Partition  3 (3000 to 3999) >=3000 and < 4000
+   -- Partition  4 (4000 to 4999) >=4000 and < 5000
+   -- Partition  5 ( >5000 )
+   
 ```
 
 ```sql
